@@ -4,8 +4,9 @@
   "description": "Strava webhooks handler",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint . --ext .ts"
+    "build": "tsc && npm run lint",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
