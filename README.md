@@ -17,8 +17,8 @@ curl -X DELETE "https://www.strava.com/api/v3/push_subscriptions/242807?client_i
 curl -X POST https://www.strava.com/api/v3/push_subscriptions \
       -F client_id=14xxx \
       -F client_secret=a9xxxxxxxxxxxxxxxx \
-      -F 'callback_url=https://f9db-77-124-180-192.ngrok-free.app/webhook' \
-      -F 'verify_token=542xxxxxxxxxxxx'
+      -F callback_url=https://f9db-77-124-180-192.ngrok-free.app/webhook \
+      -F verify_token=542xxxxxxxxxxxx
 ```
 
 ## ngrok
